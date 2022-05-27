@@ -1,0 +1,105 @@
+*{
+  font-family: sans-serif;
+
+}
+main{
+  width: 80%;
+  margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav .brand{
+    margin: 2rem;
+  }
+  .nav .brand a{
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-weight: 300;
+  }
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 2rem;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin: 1rem;
+    transition: all 0.5s;
+  }
+  .navbar ul li a:hover{
+    color: #00CC66;
+  }
+
+  .navbar ul li a button{
+    border:none;
+    width: 100px;
+    height: 40px;
+    padding: auto;
+    margin-top: -1rem;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    background-color: #00CC66;
+    transition: all 0.5s;
+}
+.navbar ul li a button:hover{
+  background-color: #f13141;
+}
+
+.container{
+  display: flex;
+}
+.container .leftside{
+  width: 50%;
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin: 2rem;
+
+}
+
+.container .leftside .green{
+  font-size: 4rem;
+  color:#00CC66;
+  font-weight: bolder;
+}
+.container .leftside .green span{
+  color: black;
+}
+.container .leftside p{
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-top: -3rem;
+}
+
+.container .leftside a button{
+  border:none;
+  width: 100px;
+  height: 40px;
+  padding: auto;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+  background-color: #00CC66;
+  transition: all 0.5s;
+}
+.container .leftside a button:hover{
+  background-color: #f13141;
+}
+
+.container .rightside{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.container .rightside img{
+  height: 38rem;
+  margin-right: 2rem;
+}
